@@ -1,0 +1,617 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.45f1 (d91bd3d4e081) revision 14228435'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 24355 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.45f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+D:/Khoa/Work/Hidden gem/Hidden gem
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+52225
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/Khoa/Work/Hidden gem/Hidden gem
+D:/Khoa/Work/Hidden gem/Hidden gem
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24316]  Target information:
+
+Player connection [24316]  * "[IP] 192.168.1.25 [Port] 0 [Flags] 2 [Guid] 3172450211 [EditorId] 3172450211 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-74S139L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24316] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24316] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.45f1 (d91bd3d4e081)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Khoa/Work/Hidden gem/Hidden gem/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.7602
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002875 seconds.
+- Loaded All Assemblies, in  0.374 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.289 seconds
+Domain Reload Profiling: 662ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (132ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (129ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (290ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (247ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.714 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.681 seconds
+Domain Reload Profiling: 1393ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (483ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (264ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (175ms)
+			BuildScriptInfoCaches (60ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (681ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (552ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6625 unused Assets / (7.2 MB). Loaded Objects now: 7288.
+Memory consumption went from 180.9 MB to 173.6 MB.
+Total: 19.473600 ms (FindLiveObjects: 1.046300 ms CreateObjectMapping: 1.329900 ms MarkObjects: 9.985600 ms  DeleteObjects: 7.108900 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.809 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.806 seconds
+Domain Reload Profiling: 1618ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (508ms)
+		LoadAssemblies (396ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (179ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (806ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (590ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6623 unused Assets / (7.3 MB). Loaded Objects now: 7291.
+Memory consumption went from 154.3 MB to 147.0 MB.
+Total: 26.214100 ms (FindLiveObjects: 2.037000 ms CreateObjectMapping: 2.318100 ms MarkObjects: 10.825200 ms  DeleteObjects: 11.031200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7455.243427 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+  artifactKey: Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg using Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ea51ae8f2c2105388922c9853062965') in 0.0878434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.709 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.719 seconds
+Domain Reload Profiling: 1430ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (445ms)
+		LoadAssemblies (326ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (181ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (720ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (529ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6623 unused Assets / (7.1 MB). Loaded Objects now: 7298.
+Memory consumption went from 154.8 MB to 147.7 MB.
+Total: 27.889200 ms (FindLiveObjects: 1.118900 ms CreateObjectMapping: 2.108100 ms MarkObjects: 11.695600 ms  DeleteObjects: 12.962100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1092.840519 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png
+  artifactKey: Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png using Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88d8f745608f6e8fd042ec0351bd6658') in 0.0762335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edef98a8405cf478fd0d1a5c88f6352b') in 0.019517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png
+  artifactKey: Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png using Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de551f65801a8cd3fb96adaeb32ccd36') in 0.0190305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png
+  artifactKey: Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png using Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c39cec48144dbf85449253766207ab6') in 0.0157013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a6ae51ad9bf1c991ce95fcf4d866e32') in 0.0215397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.142066 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21d9c8feefaa6b0e66c6c3b6b2a79bb0') in 0.013891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 365.972750 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 2.png
+  artifactKey: Guid(6b0a068b48319124e8345b2b92f6f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 2.png using Guid(6b0a068b48319124e8345b2b92f6f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '464969a933b91fd0c65a7eef8ab83734') in 0.0790738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 977.png
+  artifactKey: Guid(0ad678ed7d2cd464b817801686827542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 977.png using Guid(0ad678ed7d2cd464b817801686827542) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a90e52b133e29d6d059cb460411a096') in 0.3827095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 103
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 2-11.png
+  artifactKey: Guid(ad8c3dc83e280314b81598d9e88cea9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 2-11.png using Guid(ad8c3dc83e280314b81598d9e88cea9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba369811ea419fc104aa440b2ea7067a') in 0.0227478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 892.png
+  artifactKey: Guid(879d17820c74ef641a002f6d082100b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 892.png using Guid(879d17820c74ef641a002f6d082100b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '020bf2a51841e0a7e4f25c87bccce382') in 0.0202679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 2-10.png
+  artifactKey: Guid(e9438b466a397244ba5a874a605b4593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 2-10.png using Guid(e9438b466a397244ba5a874a605b4593) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67a3dab1ac300ee0cb8e4d44d2646472') in 0.023201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 981-6.png
+  artifactKey: Guid(61f1b06edb9c47c49b35626cf4abbb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 981-6.png using Guid(61f1b06edb9c47c49b35626cf4abbb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6456d9800a77e6773fb3504242027a4') in 0.0254414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 981-1.png
+  artifactKey: Guid(958a8394876186b45aba7a3054f59fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 981-1.png using Guid(958a8394876186b45aba7a3054f59fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b4e9a3a7bb75f02cf56dc33660cd6f3') in 0.0232808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 982-3.png
+  artifactKey: Guid(55d1ed516b582ba4d9f59c0efb71ab71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 982-3.png using Guid(55d1ed516b582ba4d9f59c0efb71ab71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0a5e76d522c0adf667675fc6eacda47') in 0.0223222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 981-5.png
+  artifactKey: Guid(64c017ac2f6597d409eba0540ba30d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 981-5.png using Guid(64c017ac2f6597d409eba0540ba30d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b319eb4da22b53419f0b1b29a0864cd1') in 0.0221099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 982-1.png
+  artifactKey: Guid(0625d4cfb229325429551ca75694ea9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 982-1.png using Guid(0625d4cfb229325429551ca75694ea9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4db74824572dba0c924250ac6f31f01') in 0.0204028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 2-2.png
+  artifactKey: Guid(c736a2ffa9d3f664398daf06388fe720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 2-2.png using Guid(c736a2ffa9d3f664398daf06388fe720) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac146c9dcf03693142ce1834553ed054') in 0.0266534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 2-12.png
+  artifactKey: Guid(3375a4cf99ccb6d49b45eacd547c11ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 2-12.png using Guid(3375a4cf99ccb6d49b45eacd547c11ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc7c2cec6c1bb37c172e4e25e559bb43') in 0.0229868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 2-3.png
+  artifactKey: Guid(e4c218119d08b5845b79dae532107bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 2-3.png using Guid(e4c218119d08b5845b79dae532107bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7b274ec66b5fd8516421770ce9bbcdf') in 0.0221634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 982.png
+  artifactKey: Guid(e7899958bf0f93b4fa17a233c4958b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 982.png using Guid(e7899958bf0f93b4fa17a233c4958b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7c5c643efded775f842b83c7f07203b') in 0.0215367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 2-1.png
+  artifactKey: Guid(4bdf789dabdfb1c4ea0e1d421e61cfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 2-1.png using Guid(4bdf789dabdfb1c4ea0e1d421e61cfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82c24ca9337c930d9d6d6f82d0975ba8') in 0.0234781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 28.png
+  artifactKey: Guid(818aa110ded96f748a667a85edb7bb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 28.png using Guid(818aa110ded96f748a667a85edb7bb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc5c3fb7b6c218a32330dfdaba8ec184') in 0.0207746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 23.png
+  artifactKey: Guid(1c078b985ee885743a6f75bfa3faeab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 23.png using Guid(1c078b985ee885743a6f75bfa3faeab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2eb679aac7561c552a08614378b5a120') in 0.0200837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 32.png
+  artifactKey: Guid(0ffdf34f2bc6afd418192cca85f0d24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 32.png using Guid(0ffdf34f2bc6afd418192cca85f0d24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5df38a7743f7bc68e245f9bc4c30c7c9') in 0.0298999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 892-2.png
+  artifactKey: Guid(92cad9e351c61d64c91d25e62ac77d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 892-2.png using Guid(92cad9e351c61d64c91d25e62ac77d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecf33df65f102169029d7e27ef5965f4') in 0.0194231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 25.png
+  artifactKey: Guid(43a5220973b61c742b92a9399a9d59d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 25.png using Guid(43a5220973b61c742b92a9399a9d59d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '320fdb77bd58299ce4a8f4f40c31c9dc') in 0.0235352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.311864 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 983.png
+  artifactKey: Guid(28289734b781c5f4189a65a7edecf381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 983.png using Guid(28289734b781c5f4189a65a7edecf381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f286798048bd0b6793a0f6384850cc38') in 0.0279251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179061 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 983-4.png
+  artifactKey: Guid(cb48a291a057d584d90ce1902f1443a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 983-4.png using Guid(cb48a291a057d584d90ce1902f1443a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6db074d7bfe950d2dc9cacd2aebd59e1') in 0.0234763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 983-6.png
+  artifactKey: Guid(9e88be2265f3dd341a9b0bc652ac053c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 983-6.png using Guid(9e88be2265f3dd341a9b0bc652ac053c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8f8cf529aa06deb529fe3ec4e1592c8') in 0.0217602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.330806 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 984-4.png
+  artifactKey: Guid(30854918e396f6e469e2a3aaae56f19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 984-4.png using Guid(30854918e396f6e469e2a3aaae56f19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11f44a03235ce3d6308e319fe9135be0') in 0.0212429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 985-1.png
+  artifactKey: Guid(3080f8d938a5b814e85e923923e53421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 985-1.png using Guid(3080f8d938a5b814e85e923923e53421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6598ded0b1a9a1ceb324c00bb6b45c6a') in 0.021265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.292857 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 985-4.png
+  artifactKey: Guid(d0790037ac939f34db763c43a3c7a621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 985-4.png using Guid(d0790037ac939f34db763c43a3c7a621) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cecd220ba3df7ae01e4680c7a57b531d') in 0.0213016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 985-6.png
+  artifactKey: Guid(ebe4d53b8fb0dbe499eaa3fdf79509de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 985-6.png using Guid(ebe4d53b8fb0dbe499eaa3fdf79509de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bf842b322769ff18fbfa8568b625ca0') in 0.0231664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 1008.png
+  artifactKey: Guid(fe586c007a6f3c84b8f2dd0e464b4993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 1008.png using Guid(fe586c007a6f3c84b8f2dd0e464b4993) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ace0e1d0451d71855d3d3214fc3ab12a') in 0.024912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 986-4.png
+  artifactKey: Guid(6164e32a5253c114ba74e81f0586d94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 986-4.png using Guid(6164e32a5253c114ba74e81f0586d94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1602c59ffa2e0243e8a95c745688797a') in 0.0273359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.208618 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 1009-2.png
+  artifactKey: Guid(648c5f1118ae6d446a178011fe0843e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 1009-2.png using Guid(648c5f1118ae6d446a178011fe0843e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c8f0b04d7f4c2e333a676267eb81238') in 0.0346034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 1010-1.png
+  artifactKey: Guid(f688e9cb9678f77438ec16988014daeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 1010-1.png using Guid(f688e9cb9678f77438ec16988014daeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a5c2e35c6f04c04bb8fd765a83aae7f') in 0.0236171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 1016-1.png
+  artifactKey: Guid(223d0d62678be0f419f90988eb7a6a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 1016-1.png using Guid(223d0d62678be0f419f90988eb7a6a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f28cf46af400d231a8d7bec91e59664c') in 0.0202304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 1016.png
+  artifactKey: Guid(0082afad9e475754da11b47c242559df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/image 1016.png using Guid(0082afad9e475754da11b47c242559df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8639a41986a5b34c2dd476e5ce77c25d') in 0.0180755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.772583 seconds.
+  path: Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/ui_card_hand_image 2-1.png
+  artifactKey: Guid(479f25319063de1439b760687acfd76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Hidden Gem image/Hidden Gem minigame - Merge game/ui_card_hand_image 2-1.png using Guid(479f25319063de1439b760687acfd76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f682554427efa2a9c1a83f1020cea883') in 0.0224853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
