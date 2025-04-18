@@ -5,6 +5,7 @@ Obj/
 Build/
 Logs/
 MemoryCaptures/
+UserSettings/
 
 # User-specific files
 *.csproj
