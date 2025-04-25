@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Khoa\\Work\\Hidden gem\\Hidden-gem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E6196FD-D210-FDE5-3A62-9ED050992461}|Assembly-CSharp.csproj|D:\\Khoa\\Work\\Hidden gem\\Hidden-gem\\assets\\scripts\\stage editor\\maincontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E6196FD-D210-FDE5-3A62-9ED050992461}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stage editor\\maincontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E6196FD-D210-FDE5-3A62-9ED050992461}|Assembly-CSharp.csproj|d:\\khoa\\work\\hidden gem\\hidden-gem\\assets\\scripts\\grid\\gridcell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6196FD-D210-FDE5-3A62-9ED050992461}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\gridcell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E6196FD-D210-FDE5-3A62-9ED050992461}|Assembly-CSharp.csproj|d:\\khoa\\work\\hidden gem\\hidden-gem\\assets\\scripts\\stage editor\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E6196FD-D210-FDE5-3A62-9ED050992461}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stage editor\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E6196FD-D210-FDE5-3A62-9ED050992461}|Assembly-CSharp.csproj|D:\\Khoa\\Work\\Hidden gem\\Hidden-gem\\assets\\scripts\\grid\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6196FD-D210-FDE5-3A62-9ED050992461}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6196FD-D210-FDE5-3A62-9ED050992461}|Assembly-CSharp.csproj|d:\\khoa\\work\\hidden gem\\hidden-gem\\assets\\scripts\\gameplaymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6196FD-D210-FDE5-3A62-9ED050992461}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameplaymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Board.cs",
-              "DocumentMoniker": "D:\\Khoa\\Work\\Hidden gem\\Hidden-gem\\Assets\\Scripts\\STAGE EDITOR\\Board.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\STAGE EDITOR\\Board.cs",
-              "ToolTip": "D:\\Khoa\\Work\\Hidden gem\\Hidden-gem\\Assets\\Scripts\\STAGE EDITOR\\Board.cs",
-              "RelativeToolTip": "Assets\\Scripts\\STAGE EDITOR\\Board.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "GridCell.cs",
+              "DocumentMoniker": "D:\\Khoa\\Work\\Hidden gem\\Hidden-gem\\Assets\\Scripts\\Grid\\GridCell.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\GridCell.cs",
+              "ToolTip": "D:\\Khoa\\Work\\Hidden gem\\Hidden-gem\\Assets\\Scripts\\Grid\\GridCell.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grid\\GridCell.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T07:43:50.272Z",
+              "WhenOpened": "2025-04-23T03:44:20.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainContainer.cs",
-              "DocumentMoniker": "D:\\Khoa\\Work\\Hidden gem\\Hidden-gem\\Assets\\Scripts\\STAGE EDITOR\\MainContainer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\STAGE EDITOR\\MainContainer.cs",
-              "ToolTip": "D:\\Khoa\\Work\\Hidden gem\\Hidden-gem\\Assets\\Scripts\\STAGE EDITOR\\MainContainer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\STAGE EDITOR\\MainContainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GamePlayManager.cs",
+              "DocumentMoniker": "D:\\Khoa\\Work\\Hidden gem\\Hidden-gem\\Assets\\Scripts\\GamePlayManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GamePlayManager.cs",
+              "ToolTip": "D:\\Khoa\\Work\\Hidden gem\\Hidden-gem\\Assets\\Scripts\\GamePlayManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GamePlayManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T07:43:54.817Z",
+              "WhenOpened": "2025-04-23T02:39:00.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GridManager.cs",
+              "DocumentMoniker": "D:\\Khoa\\Work\\Hidden gem\\Hidden-gem\\Assets\\Scripts\\Grid\\GridManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\GridManager.cs",
+              "ToolTip": "D:\\Khoa\\Work\\Hidden gem\\Hidden-gem\\Assets\\Scripts\\Grid\\GridManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grid\\GridManager.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:17:42.745Z",
               "EditorCaption": ""
             }
           ]
