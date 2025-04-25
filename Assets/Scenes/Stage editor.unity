@@ -863,7 +863,6 @@ MonoBehaviour:
   - {fileID: 1274077108006157264, guid: 3ce932606a469ba41a78fef4c4c61094, type: 3}
   rows: 4
   cols: 4
-  spacing: 5
 --- !u!1 &114262926
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,6 +1671,7 @@ GameObject:
   - component: {fileID: 272254039}
   - component: {fileID: 272254038}
   - component: {fileID: 272254037}
+  - component: {fileID: 272254040}
   m_Layer: 5
   m_Name: Exit_button
   m_TagString: Untagged
@@ -1791,6 +1791,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &272254040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272254035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 272254037}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &284062558
 GameObject:
   m_ObjectHideFlags: 0
@@ -7145,7 +7189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 5.1036286
+  m_AspectRatio: 5.092799
 --- !u!1 &1418227001
 GameObject:
   m_ObjectHideFlags: 0
@@ -8849,6 +8893,7 @@ MonoBehaviour:
   Mana: {fileID: 1282085032}
   BoardButton: {fileID: 925366015}
   SaveButton: {fileID: 829070924}
+  exitButton: {fileID: 272254040}
   board: {fileID: 95517167}
   ListItems:
   - {fileID: 1678171055}

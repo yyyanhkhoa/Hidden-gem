@@ -11,17 +11,23 @@ public class StageEditorContainer : MonoBehaviour
     public TMP_InputField Mana;
     public Button BoardButton;
     public Button SaveButton;
+    public Button exitButton;
     public GridManager board;
     public List<TMP_InputField> ListItems;
     //public Board board;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
    void Start()
-    {
+    {     
         BoardButton.onClick.AddListener(setGrid);
         SaveButton.onClick.AddListener(SaveData);
+        exitButton.onClick.AddListener(exitGame);
         board.CreateGrid(4, 4);
     }
 
+    void exitGame()
+    {
+        Application.Quit();
+    }
     public void setGrid()
     {
         string row = RowInput.text;
@@ -56,7 +62,7 @@ public class StageEditorContainer : MonoBehaviour
             PlayerPrefs.SetInt("Cols", col1);           
         }
     }
-    
+
 
     public void SaveData()
     {
@@ -65,18 +71,20 @@ public class StageEditorContainer : MonoBehaviour
         if (int.TryParse(Mana.text, out value))
             PlayerPrefs.SetInt("Mana", value);
         else
-            PlayerPrefs.SetInt("Mana", 100); // hoặc giá trị mặc định
+            PlayerPrefs.SetInt("Mana", 100); 
 
-       
 
         for (int i = 0; i < ListItems.Count; i++)
         {
             if (int.TryParse(ListItems[i].text, out value))
                 PlayerPrefs.SetInt("Item" + i, value);
             else
-                PlayerPrefs.SetInt("Item" + i, 0); // hoặc giá trị mặc định
+                PlayerPrefs.SetInt("Item" + i, 0); 
         }
-
-        SceneManager.LoadScene("GamePlay");
+        LoadGamePlayScreen();
+    }
+    void LoadGamePlayScreen()
+    {        
+        SceneManager.LoadScene(1);
     }
 }
