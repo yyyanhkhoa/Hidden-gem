@@ -26,7 +26,7 @@ public class GridManager : MonoBehaviour
         //PlaceSpecificItemRandomly(prefab);
     }
 
-    public async Task CreateGrid(int rows, int cols, float space = 5f, bool canDestroy = false)
+    public async Task CreateGrid(int rows, int cols, float space = 5f, bool isButton = false)
     {
         await ClearGrid();
         this.rows = rows;
@@ -68,11 +68,22 @@ public class GridManager : MonoBehaviour
 
                 GridCell cell = cellGO.GetComponent<GridCell>();
                 cell.isOccupied = false;
-                if (canDestroy)
+                if (isButton)
                 {
-                    cell.canDestroy = true;
+                    cell.isButton = true;
                 }
                 grid[row, col] = cell;
+            }
+        }
+    }
+
+    public void setColor(Color cl)
+    {
+        for (int row = 0; row < rows; row++)
+        {
+            for (int col = 0; col < cols; col++)
+            {
+                grid[row, col].setColor(cl) ;
             }
         }
     }

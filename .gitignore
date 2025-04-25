@@ -8,6 +8,7 @@ MemoryCaptures/
 UserSettings/
 
 # User-specific files
+
 *.csproj
 *.unityproj
 *.sln
@@ -26,6 +27,7 @@ UserSettings/
 # Rider / VS Code
 .idea/
 .vscode/
+.vs/
 *.code-workspace
 
 # Crash / Logs

@@ -1,49 +1,52 @@
 ﻿using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Threading.Tasks;
+using System;
 
 public class GridCell : MonoBehaviour
 {
     public bool isOccupied = false;
-    public bool canDestroy = false;
+    public bool isButton = false;
     // Gắn UI/Image nếu cần tham chiếu
     public Image backgroundImage;
     public Color color;
     public GameObject BreabreakEffect;
-
+    // Định nghĩa một sự kiện khi có click
+    public static event Action OnCellDestroyed; // Sự kiện sẽ được gọi khi ô bị hủy
     private void Start()
-    {
-        if (canDestroy)
+    {   
+        Button btn = GetComponent<Button>();
+        if (isButton)
         {
-            Button btn = GetComponent<Button>();
-
             if (btn != null)
             {
                 // Thêm sự kiện click
                 btn.onClick.AddListener(OnClickDestroy);
             }
         }
+        else
+        {
+            btn.interactable = false;
+        }
+      
     }
 
-    private void setColor(Color cl)
+    public void setColor(Color cl)
     {
-        backgroundImage = this.GetComponent<Image>();
-        if (backgroundImage != null)
+        Image img = GetComponent<Image>();
+
+        if (img != null)
         {
-            backgroundImage.color = color;
+           img.color = cl;
         }
-    }
-    void OnClickDestroy()
-    {
-        if (BreabreakEffect != null)
-        {
-            Debug.Log("Destroy cell");
-            // Hiệu ứng tại vị trí cell
-            GameObject effect = Instantiate(BreabreakEffect, transform.position, Quaternion.identity);
-            effect.transform.SetParent(transform.parent); // tránh bị xóa cùng cell
-            Destroy(effect, 1f); // huỷ effect sau 2s
-        }
-        Destroy(gameObject, 1f);
     }
 
+    public void OnClickDestroy()
+    {
+        // Phát sự kiện
+        OnCellDestroyed?.Invoke(); // Gọi sự kiện
+
+        Destroy(gameObject, 0.5f);
+    }
 }
